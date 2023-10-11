@@ -1,0 +1,8 @@
+HOTEL_MAX
+
+keep good photoes.
+its a basically hotel booking website
+which will also provide a travelling packege use torism or travelling apis. and also provide a rental car services.use rental car api for it
+make differente pages.
+on main page all things will be there eg. on nav bar  add elements like rental car,and torism packegs,services,spa etc..
+and then on clicking that redirect to next page.
