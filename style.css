@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 header{
     width: 100vw;
     height: 100vh;
-    background-image:url('img/header-bg.png'); 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/hotel-4.jpg'); 
     background-position:bottom;
     background-size: cover;
     display:flex;
@@ -29,7 +30,7 @@ header{
 .line{
     width: 150px;
     height: 4px;
-    background-color: rgb(255, 251, 251);
+    background-color:#f02020;
     margin: 10px auto;
     border-radius: 5px;
 
@@ -55,7 +56,7 @@ header{
 }
 .ctn{
     padding: 8px 15px;
-    background: #f02020;
+    background:#f02020;
     border-radius: 30px;
     color: white;
     opacity: .8;
@@ -94,5 +95,10 @@ ul
 {
     font-size: 4vmin;
    
+}
+.info
+{
+    width: 100vw;
+    height: 100vh;
 }
 

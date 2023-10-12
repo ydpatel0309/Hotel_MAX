@@ -1,4 +1,4 @@
 function learnMore()
 {
-    window.location.href="visit.html";
+    window.location.href="about.html";
 }
