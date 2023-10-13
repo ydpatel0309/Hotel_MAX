@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="reservation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -16,7 +16,7 @@
         <h1 class="logo">HOTEL_MAX</h1>
         <ul class="nav-links">
          <li><a href="index.html">Home</a></li>   
-         <li><a href="/about.html">Reservation</a></li>   
+         <li><a href="/reservation.html">Reservation</a></li>   
          <li><a href="/visit.html">Explor</a></li>   
          <li><a href="#">Services</a></li>   
          <li><a href="#">Booking</a></li>   
@@ -31,21 +31,37 @@
                   <h1>Booking Form</h1>
                   <p>Please fill in this form for booking process.</p>
                   <hr>
+                  <label for="name"><b>Name</b></label>
+                  <input type="text" placeholder="Enter Name" name="data[name]" required>
               
                   <label for="email"><b>Email</b></label>
                   <input type="text" placeholder="Enter Email" name="data[email]" required>
               
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="data[psw]" required>
-              
-                  <label for="psw repeat"><b>Repeat Password</b></label>
-                  <input type="password" placeholder="Repeat Password" name="data[psw repeat]" required>
-        
-                  <label for="psw repeat"><b>age</b></label>
-                  <input type="password" placeholder="Repeat Password" name="data[age]" required>
-        
+                  <div class="dates">
+                  <label for="sdate"><b>Start Date :</b></label>
+                  <input type="date" placeholder="Enter Start Date" name="data[sdate]" required>
                   
-              
+            
+                  <label for="edate"><b>End Date :</b></label>
+                  <input type="date" placeholder="Enter End Date" name="data[edate]" required>
+
+                  </div>
+
+                  <div class="dates">
+                  <label for="age"><b>Age :</b></label>
+                  <input type="number" placeholder="Age" name="data[age]" required>
+                 
+
+                  <label for="members"><b>Members :</b></label>
+                  <input type="number" placeholder="Total Members" name="data[member]" required>
+
+                </div>
+                <div class="room">
+                  <label for="room"><b>Room :</b></label>
+                  <input type="select" placeholder="Type of Room" name="data[room]" >
+                </div>
+                <br>
+       
                   <label>
                     <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
                   </label>
@@ -73,7 +89,7 @@
               response => response.json()
           ).then((html) => {
             // you can put any JS code here
-            window.open('page2.html', '_blank');
+            alert("Successfully Booked");
 
           });
         });

@@ -1,4 +1,4 @@
 function learnMore()
 {
-    window.location.href="about.html";
+    window.location.href="reservation.html";
 }
