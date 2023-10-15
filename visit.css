@@ -11,6 +11,9 @@ header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/hotel-2.jpg');
     background-position: bottom;
     background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    
       
 }
 
@@ -58,12 +61,12 @@ ul
     font-size: 4vmin;
    
 }
-.outer
+/* .outer
 {
     position: absolute;
     box-sizing: border-box;
     top: 20%;
-}
+} */
 .column1
 { 
     display: flex;
@@ -104,4 +107,25 @@ ul
     height: 100vh;
     background-color: blueviolet;
 }
+.outer{
+    /* margin-top:10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+   
+}
+.gallery{
+  margin-top: 10vh;
+   
+ }
+ .gallery img{
+    margin-bottom: 10px;
+    border-radius: .5rem;
+    object-fit: cover;
+    height: 20rem;
+    width: 30rem;
+    margin: 10px;
+ }
+ 
 
