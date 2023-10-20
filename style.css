@@ -97,9 +97,27 @@ ul
     font-size: 4vmin;
    
 }
-.info
-{
-    width: 100vw;
-    height: 100vh;
-}
+#menu-icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none; 
 
+}
+#menu-icon1 {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    /* display: none;  */
+
+}
+@media only screen and (max-width: 1000px){
+    .nav-links{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    
+    
+}
