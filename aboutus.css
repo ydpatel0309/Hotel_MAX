@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/hotel-2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    
+      
+}
+
+.navbar1 a{
+    text-decoration: none;
+    color: #001861;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #2b51c0;
+    border-radius: 30px;    
+}
+
+.navbar1
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+
+}
+ul
+{
+    list-style: none;
+}
+.nav-links
+{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin:0 30px;
+}
+.nav-links a{
+   
+    font-size: large;
+    color: white;
+}
+.logo
+{
+    font-size: 4vmin;
+   
+}
+
+/* --------------------------upto background and nav bar completed-------------------------------------- */
+.about .row{
+   box-sizing: border-box;
+   padding:100px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   text-align: center;
+   align-items: center;
+   margin-top: 15vh;
+  
+}
+
+.about .row .image{
+   flex: 1 1 40rem;
+   background-position: center;
+   background-size: contain;
+   /* height:50%; */
+}
+
+.about .row .image img{
+   width: 40rem;
+   border-radius: .5rem;
+}
+
+.about .row .content{
+   flex:1 1 40rem;
+   color: white;
+}
+
+.about .row .content h3{
+   font-size: 3rem;
+   color: var(--sub-color);
+   text-transform: capitalize;
+   margin-bottom: 1rem;
+}
+
+.about .row .content p{
+   line-height: 2;
+   padding: 1rem 0;
+   font-size: 1.7rem;
+   color: var(--sub-color);
+}
+
+.about .row.revers{
+   flex-flow: row-reverse;
+   margin: 3rem 0;
+   flex-wrap: wrap;
+}
