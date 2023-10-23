@@ -8,13 +8,12 @@
 header{
     width: 100vw;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/hotel-2.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/about-bg.jpg');
     background-position: bottom;
     background-size: cover;
     background-position: fixed;
     background-attachment: fixed;
-    
-      
+     
 }
 
 .navbar1 a{
@@ -111,3 +110,71 @@ ul
    margin: 3rem 0;
    flex-wrap: wrap;
 }
+footer{
+    height: 51vh;
+    background-color:rgba(0, 0, 0, 0.728);
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding-bottom: 3rem; */
+ }
+ 
+ .footer .box-container .box a{
+    display: block;
+    font-size:1.3em;
+    color: var(--sub-color);
+    padding: .5rem ;
+    text-decoration: none;
+ }
+ 
+ .footer .box-container .box a:hover{
+    color: var(--white);
+ }
+ 
+ .footer .box-container .box:first-child i{
+    margin-right: 1.7rem;
+ }
+ 
+ .footer .box-container .box:nth-child(2){
+    text-align: center;
+ }
+ 
+ .footer .box-container .box:last-child{
+    text-align:right;
+ }
+ 
+ .footer .box-container .box:last-child i{
+    margin-left: 1.7rem;
+ }
+ 
+ .credit{
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+    color: var(--main-color);
+    background-color:hsla(34, 57%, 70%, 0.2) ;
+    font-size: 1.5rem;
+    width: 70%;
+    
+    /* margin-bottom: 8rem; */
+ }
+ .creditouter
+ {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+ }

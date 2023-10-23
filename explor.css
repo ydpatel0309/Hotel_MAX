@@ -134,19 +134,22 @@ ul
     height: 22rem;
     transition: 1s;
     filter: grayscale(0);
-   
-    
  }
  .gallery img{
     /* margin-bottom: 8px; */
-    border-radius: .5rem;
-    object-fit: cover;
+    border-radius: .5rem; 
     height: 20rem;
     width: 30rem;
     margin-right: 10px;
     margin-bottom: 10px;
     transition: 1s;
     filter: grayscale(100%);
+    
+ }
+ footer{
+    height: 40vh;
+    background-color: #001861;
+    color: white;
     
  }
  
