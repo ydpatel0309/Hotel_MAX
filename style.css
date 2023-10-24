@@ -104,23 +104,53 @@ ul
     color: white;
     font-size: 20px;
     cursor: pointer;
-    display: none; 
-
-}
-#menu-icon1 {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
+    margin-right:30px;
     /* display: none;  */
 
 }
+
+.side-bar
+{
+    
+    background-color: rgb(48, 17, 16);
+    display:none;
+    padding-left: -20p;
+    box-sizing: border-box;
+    
+
+
+}
+.dropdown:hover .side-bar
+{
+    display: block;
+    position: absolute;
+    right: 5%;
+
+}
+.side-bar ul{
+    display: block;
+
+}
+.side-bar ul li{
+
+margin-right: 15px;
+}
+.dropdown
+{
+    display: none;
+    height: 150px;
+
+}
+.navlist1 a{
+    font-size: larger;
+    margin-left: 20px;
+}
 @media only screen and (max-width: 1000px){
-    .nav-links{
+    .dropdown{
+        display: block;
+    }    
+    .nav-links
+    {
         display: none;
     }
-    #menu-icon{
-        display: block;
-    }
-    
-    
 }

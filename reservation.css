@@ -222,3 +222,53 @@ input[type=date]:focus:focus {
     width: 100%;
   }
 }
+
+
+/* for responsive */
+.side-bar
+{
+    
+    background-color: rgb(89, 97, 126);
+    display:none;
+    padding-left: -20p;
+    box-sizing: border-box;
+    color: white; 
+}
+.dropdown:hover .side-bar
+{
+    display: block;
+    position: absolute;
+    right: 5%;
+
+}
+.side-bar ul{
+    display: block;
+
+}
+.side-bar ul li{
+
+margin-right: 15px;
+}
+.dropdown
+{
+   display: none;
+   height: 150px;
+   width: 100px;
+   text-align: end;
+}
+.navlist1 a{
+    font-size: larger;
+    margin-left: 20px;
+  
+   
+}
+@media only screen and (max-width: 1000px){
+    .dropdown{
+        display: block;
+    }    
+    .nav-links
+    {
+        display: none;
+    }
+}
+

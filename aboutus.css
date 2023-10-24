@@ -219,3 +219,51 @@ footer{
    line-height: 2;
    font-size: 1.5rem;
 }
+
+
+.side-bar
+{
+    
+    background-color: rgb(234, 149, 81);
+    display:none;
+    padding-left: -20p;
+    box-sizing: border-box;
+    color: white;
+    
+
+
+}
+.dropdown:hover .side-bar
+{
+    display: block;
+    position: absolute;
+    right: 5%;
+
+}
+.side-bar ul{
+    display: block;
+
+}
+.side-bar ul li{
+
+margin-right: 15px;
+}
+.dropdown
+{
+    display: none;
+    height: 150px;
+
+}
+.navlist1 a{
+    font-size: larger;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 1000px){
+    .dropdown{
+        display: block;
+    }    
+    .nav-links
+    {
+        display: none;
+    }
+}
