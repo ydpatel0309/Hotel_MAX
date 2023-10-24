@@ -5,6 +5,10 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+/* for hidinag the scroll bar but still able to scroll */
+::-webkit-scrollbar {
+  display: none;
+}
 header{
     width: 100vw;
     height: 100vh;

@@ -2,3 +2,7 @@
 {
     background: #000;
 }
+/* for hidinag the scroll bar but still able to scroll */
+::-webkit-scrollbar {
+    display: none;
+ }

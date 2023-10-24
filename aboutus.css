@@ -6,6 +6,10 @@
     overflow-x: hidden;
     
 }
+/* for hidinag the scroll bar but still able to scroll */
+::-webkit-scrollbar {
+   display: none;
+}
 
 header{
     width: 100vw;
@@ -143,10 +147,10 @@ footer{
     text-decoration: none;
  }
  
- .footer .box-container .box a:hover{
+ /* .footer .box-container .box a:hover{
     color: var(--white);
  }
- 
+  */
  .footer .box-container .box:first-child i{
     margin-right: 1.7rem;
  }
@@ -180,3 +184,38 @@ footer{
     justify-content: center;
     margin-top: 30px;
  }
+
+/* srvice css */
+.services
+{
+  color: white;
+}
+ .services .box-container{
+   /* display: grid; */
+   /* grid-template-columns: repeat(auto-fit, minmax(25rem,)); */
+   /* gap: 1rem; */
+   justify-content: center;
+   /* align-items: flex-start; */
+   background-color:hsla(0, 0%, 0%, 0.482) ;
+}
+
+.services .box-container .box{
+   padding: 2rem;
+   text-align: center;
+}
+
+.services .box-container .box img{
+   height: 7rem;
+   margin-bottom: 1rem;
+}
+
+.services .box-container .box h3{
+ 
+   text-transform: capitalize;
+   margin: 1rem 0;
+}
+
+.services .box-container .box p{
+   line-height: 2;
+   font-size: 1.5rem;
+}
