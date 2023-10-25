@@ -106,7 +106,7 @@ ul
     box-sizing: border-box;
     margin-top: 80px;
     color: white;
-    width: 40%;
+    /* width: 40%; */
     display: flex;
     
 }
@@ -225,24 +225,35 @@ input[type=date]:focus:focus {
 
 
 /* for responsive */
+#menu-icon {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right:30px;
+  /* display: none;  */
+
+}
+
 .side-bar
 {
-    
-    background-color: rgb(89, 97, 126);
-    display:none;
-    padding-left: -20p;
-    box-sizing: border-box;
-    color: white; 
+  
+  background-color: rgb(89, 97, 126);
+  display:none;
+  padding-left: -20p;
+  box-sizing: border-box;
+  
+
+
 }
 .dropdown:hover .side-bar
 {
-    display: block;
-    position: absolute;
-    right: 5%;
+  display: block;
+  position: absolute;
+  right: 5%;
 
 }
 .side-bar ul{
-    display: block;
+  display: block;
 
 }
 .side-bar ul li{
@@ -251,24 +262,20 @@ margin-right: 15px;
 }
 .dropdown
 {
-   display: none;
-   height: 150px;
-   width: 100px;
-   text-align: end;
+  display: none;
+  height: 300px;
+
 }
 .navlist1 a{
-    font-size: larger;
-    margin-left: 20px;
-  
-   
+  font-size: larger;
+  margin-left: 20px;
 }
 @media only screen and (max-width: 1000px){
-    .dropdown{
-        display: block;
-    }    
-    .nav-links
-    {
-        display: none;
-    }
+  .dropdown{
+      display: block;
+  }    
+  .nav-links
+  {
+      display: none;
+  }
 }
-
