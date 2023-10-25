@@ -117,7 +117,7 @@ ul
    flex-wrap: wrap;
 }
 footer{
-    height: 51vh;
+    height: 50vh;
     background-color:rgba(0, 0, 0, 0.728);
     color: white;
     box-sizing: border-box;
@@ -273,5 +273,15 @@ margin-right: 15px;
     {
         display: none;
     }
+    .footer .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1.5rem;
+      justify-content: center;
+      align-items: flex-start;
+      /* padding-bottom: 3rem; */
+      overflow: hidden;
+   }
+   
 }
 
