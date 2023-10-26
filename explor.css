@@ -150,6 +150,14 @@ ul
     filter: grayscale(100%);
     
  }
+
+ .carousel-inner img {
+    width: 60%;
+    height: 100vh;
+    padding: 100px;
+    
+
+  }
  footer{
     height: 40vh;
     background-color: #001861;
