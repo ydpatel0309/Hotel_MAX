@@ -153,4 +153,17 @@ margin-right: 15px;
     {
         display: none;
     }
+    .header-content
+    {
+    margin-bottom: 200px;
+    }
+    .header-content h1{
+        font-size: 10vmin;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 30px;
+        opacity: 1;
+        transition-duration:1s;
+
+    }
 }

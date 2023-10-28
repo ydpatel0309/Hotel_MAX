@@ -278,4 +278,7 @@ margin-right: 15px;
   {
       display: none;
   }
+  .clearfix ,.dates{
+    flex-direction:column;
+  }
 }
