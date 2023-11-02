@@ -274,6 +274,9 @@ margin-right: 15px;
    .about .row{
       padding: 1px;
    }
-   
+   .about .row .content p{
+      font-size: 1.5rem;
+     
+   }
 }
 
