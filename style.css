@@ -47,12 +47,7 @@ header{
     transition-duration:1s;
     
 }
-.header-content h1:hover
-{
-    opacity: 1;  
-    color:rgb(255, 255, 255);
-    letter-spacing: 10px;
-}
+
 .navbar1 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -164,6 +159,25 @@ margin-right: 15px;
         margin-bottom: 30px;
         opacity: 1;
         transition-duration:1s;
+        
     }
    
+   
+}
+@media only screen and (min-width: 1000px) {
+    .header-content h1:hover
+{
+    opacity: 1;  
+    color:rgb(255, 255, 255);
+    letter-spacing: 10px;
+}
+.header-content h1{
+    font-size: 10vmin;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    opacity: .3;
+    transition-duration:1s;
+    
+}
 }

@@ -271,6 +271,9 @@ margin-right: 15px;
       /* padding-bottom: 3rem; */
       overflow: hidden;
    }
+   .about .row{
+      padding: 1px;
+   }
    
 }
 
