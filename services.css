@@ -85,7 +85,6 @@ ul
     flex: 1 1 40rem;
     background-position: center;
     background-size: contain;
-    /* height:50%; */
  }
  
 .image img{
@@ -125,7 +124,6 @@ ul
     font-size: 20px;
     cursor: pointer;
     margin-right:30px;
-    /* display: none;  */
  
  }
  
@@ -179,7 +177,6 @@ ul
       gap: 1.5rem;
       justify-content: center;
       align-items: flex-start;
-      /* padding-bottom: 3rem; */
       overflow: hidden;
    }
    .about .row{
